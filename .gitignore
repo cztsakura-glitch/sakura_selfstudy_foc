@@ -1,0 +1,52 @@
+# Windows / editors
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+
+# Codex / local analysis artifacts
+**/.codex_tmp_xlsx/
+**/_uart_hits.png
+
+# Keil MDK build outputs and user-local settings
+*.o
+*.obj
+*.d
+*.dep
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.sct.bak
+*.uvguix.*
+*.uvoptx
+*.build_log.htm
+*.htm
+*.log
+*.iex
+JLinkLog.txt
+EventRecorderStub.scvd
+/selfmoter_test_open_FOC/MDK-ARM/codex_build_output.txt
+
+# Generic build / cache directories
+build/
+Build/
+Debug/
+Release/
+Objects/
+Listings/
+__pycache__/
+*.py[cod]
+
+# Local vendor/reference documents: keep locally, link to official sources instead
+/开发板硬件规格书.pdf
+/开发板原理图_V1.0_2020_10_10.pdf
+/驱动板原理图.pdf
+/野火直流无刷驱动板与骄阳电机开发板引脚连接说明.xlsx
+
+# Internal handoff notes containing machine-specific paths
+/selfmoter_test_open_FOC/docs/FOC项目交接记录.md
